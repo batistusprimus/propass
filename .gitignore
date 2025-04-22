@@ -4,3 +4,7 @@ dist
 .env
 .DS_Store
 *.log
+
+# SSH Keys
+propass
+propass.pub
