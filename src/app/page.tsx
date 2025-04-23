@@ -1,7 +1,6 @@
 import HeaderSection from '@/components/HeaderSection';
 import HeroSection from '@/components/HeroSection';
 import ProblemSection from '@/components/ProblemSection';
-import SolutionSection from '@/components/SolutionSection';
 import ConstraintsSection from '@/components/ConstraintsSection';
 import StorySection from '@/components/StorySection';
 import InboundSection from '@/components/InboundSection';
@@ -20,11 +19,10 @@ export default function Home() {
     <main className="min-h-screen">
       <HeaderSection />
       <HeroSection />
+      <InboundSection />
       <ProblemSection />
-      <SolutionSection />
       <ConstraintsSection />
       <StorySection />
-      <InboundSection />
       <ResultsSection />
       <BootcampSection />
       <ProgramSection />
@@ -32,8 +30,8 @@ export default function Home() {
       <ComparisonSection />
       <TestimonialsSection />
       <ChoiceSection />
-      <FAQSection />
       <CTASection />
+      <FAQSection />
     </main>
   );
 }

@@ -2,10 +2,19 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function HeaderSection() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -16,39 +25,45 @@ export default function HeaderSection() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-soft' : 'bg-white'
+    }`}>
       {/* Bandeau de lancement */}
-      <div className="bg-[#1B4332] text-white py-2 text-center">
+      <motion.div 
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="bg-primary text-white py-2 text-center"
+      >
         <p className="text-sm font-medium">
-          🚀 8 places disponibles pour le Bootcamp
+          🚀 7/8 places disponibles pour le Bootcamp
         </p>
-      </div>
+      </motion.div>
 
       {/* Header principal */}
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <span className="text-xl font-bold text-[#1B4332]">Pro Pass</span>
+            <span className="text-2xl font-bold text-primary font-display">Pro Pass</span>
           </Link>
 
           {/* Navigation desktop */}
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('bootcamp')}
-              className="text-gray-700 hover:text-[#1B4332] transition-colors duration-300"
+              className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium"
             >
               Programme
             </button>
             <button
               onClick={() => scrollToSection('results')}
-              className="text-gray-700 hover:text-[#1B4332] transition-colors duration-300"
+              className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium"
             >
               Résultats
             </button>
             <button
               onClick={() => scrollToSection('faq')}
-              className="text-gray-700 hover:text-[#1B4332] transition-colors duration-300"
+              className="text-gray-700 hover:text-primary transition-colors duration-300 font-medium"
             >
               FAQ
             </button>
@@ -60,7 +75,7 @@ export default function HeaderSection() {
               href="https://calendly.com/copyfk/appel-qualificatif-bootcamp?month=2025-04"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-[#1B4332] text-white px-6 py-2 rounded-full hover:bg-[#2D6A4F] transition-all duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+              className="btn-primary"
             >
               Prendre rendez-vous
             </a>
@@ -98,19 +113,19 @@ export default function HeaderSection() {
             <nav className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('bootcamp')}
-                className="text-gray-700 hover:text-[#1B4332] transition-colors duration-300 text-left"
+                className="text-gray-700 hover:text-primary transition-colors duration-300 text-left font-medium"
               >
                 Programme
               </button>
               <button 
                 onClick={() => scrollToSection('results')}
-                className="text-gray-700 hover:text-[#1B4332] transition-colors duration-300 text-left"
+                className="text-gray-700 hover:text-primary transition-colors duration-300 text-left font-medium"
               >
                 Résultats
               </button>
               <button 
                 onClick={() => scrollToSection('faq')}
-                className="text-gray-700 hover:text-[#1B4332] transition-colors duration-300 text-left"
+                className="text-gray-700 hover:text-primary transition-colors duration-300 text-left font-medium"
               >
                 FAQ
               </button>
@@ -118,7 +133,7 @@ export default function HeaderSection() {
                 href="https://calendly.com/copyfk/appel-qualificatif-bootcamp?month=2025-04"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#1B4332] text-white px-6 py-2 rounded-full hover:bg-[#2D6A4F] transition-all duration-300 shadow-md hover:shadow-lg text-center"
+                className="btn-primary text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Prendre rendez-vous
