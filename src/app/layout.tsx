@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Système de Prospection Passive | Bootcamp",
   description: "Un système de prospection passive disponible sous 30 jours, construit gratuitement pour vous.",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({

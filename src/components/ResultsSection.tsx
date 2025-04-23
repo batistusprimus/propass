@@ -224,7 +224,7 @@ export default function ResultsSection() {
                 <div className="relative w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                   <div className="absolute inset-0 p-4">
                     <Image
-                      src={encodeURI('/images/+52,7%.png')}
+                      src="/images/increase-52-7.png"
                       alt="Résultats de l'optimisation Google"
                       fill
                       style={{ objectFit: 'contain' }}
@@ -297,7 +297,7 @@ export default function ResultsSection() {
                 <div className="relative w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-xl">
                   <div className="absolute inset-0 p-4">
                     <Image
-                      src={encodeURI('/images/+83%.png')}
+                      src="/images/increase-83.png"
                       alt="Résultats de l'optimisation pour la masseuse à domicile"
                       fill
                       style={{ objectFit: 'contain' }}
@@ -325,7 +325,7 @@ export default function ResultsSection() {
                 <div className="relative w-full aspect-[4/3] bg-white rounded-2xl overflow-hidden shadow-xl">
                   <div className="absolute inset-0 p-4">
                     <Image
-                      src={encodeURI('/images/+175%.png')}
+                      src="/images/increase-175.png"
                       alt="Résultats de l'optimisation"
                       fill
                       style={{ objectFit: 'contain' }}

@@ -26,7 +26,7 @@ export default function CTASection() {
               Si vous voyez cette page, c'est que quelques places sur les 8 de départ sont encore disponibles pour rejoindre le BootCamp.
             </p>
             <p className="text-lg text-gray-700">
-              Quoiqu'il arrive, je fermerais les inscriptions le XX à XX.
+              Quoiqu'il arrive, je fermerais les inscriptions le 08 Mai à 20h.
             </p>
             <p className="text-lg text-gray-700">
               Mais je sais que ce sera avant compte tenu des demandes de rendez-vous que je reçois chaque jour.
