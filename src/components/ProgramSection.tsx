@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function ProgramSection() {
   return (
-    <section className="relative py-32 px-4 bg-gradient-to-b from-accent-light to-white overflow-hidden">
+    <section id="bootcamp" className="relative py-32 px-4 bg-gradient-to-b from-accent-light to-white overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-primary opacity-5">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('/images/pattern.png')] opacity-10"></div>

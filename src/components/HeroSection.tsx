@@ -65,7 +65,7 @@ export default function HeroSection() {
               </a>
               <a
                 href="#bootcamp"
-                className="btn-secondary w-full md:w-auto text-center"
+                className="btn-secondary w-full md:w-auto text-center scroll-smooth"
               >
                 Découvrir le programme →
               </a>
