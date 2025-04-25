@@ -19,10 +19,10 @@ export default function Home() {
     <main className="min-h-screen">
       <HeaderSection />
       <HeroSection />
-      <InboundSection />
       <ProblemSection />
       <ConstraintsSection />
       <StorySection />
+      <InboundSection />
       <ResultsSection />
       <BootcampSection />
       <ProgramSection />

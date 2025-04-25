@@ -25,7 +25,7 @@ export default function ProblemSection() {
         >
           <div className="card hover:scale-[1.02] transition-all duration-300">
             <h2 className="heading-2 mb-8">
-              Vous êtes <span className="text-primary-light">professionnels du service du sport et du loisir</span> et vous passez votre temps à courir après les clients ?
+              Vous êtes <span className="text-primary-light">professionnels du service, du sport et du loisir</span> et vous passez votre temps à courir après les clients ?
             </h2>
             
             <div className="space-y-6">

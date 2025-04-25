@@ -34,7 +34,7 @@ export default function HeroSection() {
               transition={{ delay: 0.2, duration: 0.5 }}
               className="inline-block bg-primary text-white px-6 py-2 rounded-full text-sm font-semibold shadow-md"
             >
-              7/8 places disponibles
+              il reste que 7 places sur les 8
             </motion.div>
 
             <div className="space-y-6">

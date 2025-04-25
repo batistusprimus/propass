@@ -34,8 +34,8 @@ export default function HeaderSection() {
         animate={{ opacity: 1, y: 0 }}
         className="bg-primary text-white py-2 text-center"
       >
-        <p className="text-sm font-medium">
-          🚀 7/8 places disponibles pour le Bootcamp
+        <p className="text-sm font-medium text-white">
+          🚀 il reste que 7 places sur les 8 pour le Bootcamp
         </p>
       </motion.div>
 

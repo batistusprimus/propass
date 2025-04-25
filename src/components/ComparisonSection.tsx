@@ -158,6 +158,24 @@ export default function ComparisonSection() {
             </motion.div>
           </div>
         </motion.div>
+
+        {/* CTA Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5, duration: 0.5 }}
+          className="text-center mt-12"
+        >
+          <a
+            href="https://calendly.com/your-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-primary text-white px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary-dark transition-all duration-300 transform hover:scale-105 shadow-soft hover:shadow-hover"
+          >
+            Prendre rendez-vous gratuit
+          </a>
+        </motion.div>
       </div>
     </section>
   );

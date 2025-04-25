@@ -27,7 +27,10 @@ export default function CTASection() {
           </h2>
           <div className="space-y-6 max-w-3xl mx-auto">
             <p className="text-body text-gray-700 leading-relaxed">
-              Si vous voyez cette page, c'est que 7/8 places sont encore disponibles pour rejoindre le BootCamp.
+              Si vous voyez cette page, c'est qu'il reste que 7 places sur les 8 pour rejoindre le BootCamp.
+            </p>
+            <p className="text-body text-gray-700 leading-relaxed">
+              Le BootCamp commence le 12 mai.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
               Quoiqu'il arrive, je fermerais les inscriptions le 08 Mai à 20h.
