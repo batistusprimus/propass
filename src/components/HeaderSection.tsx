@@ -35,7 +35,7 @@ export default function HeaderSection() {
         className="bg-primary text-white py-2 text-center"
       >
         <p className="text-sm font-medium text-white">
-          🚀 il reste que 7 places sur les 8 pour le Bootcamp
+          🚀 il reste que 2 places sur les 8 pour le Bootcamp
         </p>
       </motion.div>
 
