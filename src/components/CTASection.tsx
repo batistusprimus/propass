@@ -27,16 +27,16 @@ export default function CTASection() {
           </h2>
           <div className="space-y-6 max-w-3xl mx-auto">
             <p className="text-body text-gray-700 leading-relaxed">
-              Si vous voyez cette page, c'est qu'il reste que 6 places sur les 8 pour rejoindre le BootCamp.
+              Si vous voyez cette page, c'est que quelques places sur les 8 disponibles pour rejoindre le Bootcamp sont encore ouvertes.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Le BootCamp commence le 12 mai.
+              Le Bootcamp débute le 12 Mai.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Quoiqu'il arrive, je fermerais les inscriptions le 08 Mai à 20h.
+              Quoiqu'il arrive, je fermerai les inscriptions le 08 Mai à 20h.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Mais je sais que ce sera avant compte tenu des demandes de rendez-vous que je reçois chaque jour.
+              Vu le nombre de demandes que je reçois chaque jour, je sais que les places vont partir avant.
             </p>
           </div>
         </motion.div>
@@ -49,7 +49,7 @@ export default function CTASection() {
           className="card max-w-4xl mx-auto space-y-16 bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-8"
         >
           <h3 className="heading-3 text-center text-gray-900">
-            Je vous propose donc un <span className="text-primary font-semibold">appel de 30 minutes</span>, 100% gratuit, pour :
+            Je vous propose donc un <span className="text-primary font-semibold">appel gratuit de 30 minutes</span> pour :
           </h3>
           <ul className="space-y-8">
             <motion.li
@@ -60,7 +60,7 @@ export default function CTASection() {
               className="flex items-start space-x-4 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100"
             >
               <span className="text-primary text-2xl font-bold">→</span>
-              <p className="text-body text-gray-700">faire le point sur votre activité,</p>
+              <p className="text-body text-gray-700">Noter votre système actuel sur 10 (visibilité, prospection, conversion, fidélisation)</p>
             </motion.li>
             <motion.li
               initial={{ opacity: 0, x: -20 }}
@@ -70,7 +70,7 @@ export default function CTASection() {
               className="flex items-start space-x-4 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100"
             >
               <span className="text-primary text-2xl font-bold">→</span>
-              <p className="text-body text-gray-700">voir si ce système peut s'appliquer à votre business,</p>
+              <p className="text-body text-gray-700">Vous montrer où vous perdez des prospects aujourd'hui (souvent sans vous en rendre compte)</p>
             </motion.li>
             <motion.li
               initial={{ opacity: 0, x: -20 }}
@@ -80,7 +80,7 @@ export default function CTASection() {
               className="flex items-start space-x-4 bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100"
             >
               <span className="text-primary text-2xl font-bold">→</span>
-              <p className="text-body text-gray-700">et vous montrer concrètement comment on peut le mettre en place chez vous en 4 semaines.</p>
+              <p className="text-body text-gray-700">Vous donner 3 actions immédiates pour augmenter votre note sur 10 et arrêter de perdre du chiffre d'affaires.</p>
             </motion.li>
           </ul>
 
@@ -139,13 +139,13 @@ export default function CTASection() {
 
           <div className="space-y-6 text-center bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300 border border-gray-100">
             <p className="text-body text-gray-700">
-              Si vous avez des doutes sur votre présence en ligne…
+              Si vous sentez que votre marketing digital pourrait mieux tourner…
             </p>
             <p className="text-body text-gray-700">
-              Si vous ne savez pas si votre marketing digital est efficace…
+              Si vous doutez de votre présence locale…
             </p>
             <p className="text-body text-gray-700">
-              Ou si vous sentez que votre système de prospection (réseaux sociaux, blog, mails, pubs…) <span className="font-semibold text-primary">pourrait clairement mieux faire…</span>
+              Ou si vous savez que votre prospection pourrait être plus efficace sans y passer des heures…
             </p>
           </div>
 
