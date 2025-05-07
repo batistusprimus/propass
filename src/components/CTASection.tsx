@@ -30,10 +30,10 @@ export default function CTASection() {
               Si vous voyez cette page, c'est que quelques places sur les 8 disponibles pour rejoindre le Bootcamp sont encore ouvertes.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Le Bootcamp débute le 12 Mai.
+              Le Bootcamp débute le 19 Mai.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Quoiqu'il arrive, je fermerai les inscriptions le 08 Mai à 20h.
+              Quoiqu'il arrive, je fermerai les inscriptions le 15 Mai à 20h.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
               Vu le nombre de demandes que je reçois chaque jour, je sais que les places vont partir avant.

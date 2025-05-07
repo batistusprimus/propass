@@ -35,7 +35,7 @@ export default function HeaderSection() {
         className="bg-primary text-white py-2 text-center"
       >
         <p className="text-sm font-medium text-white">
-          🚀 il reste que 6 places sur les 8 pour le Bootcamp
+          🚀 il reste que 4 places sur les 8 pour le Bootcamp - Lancement le 19 Mai
         </p>
       </motion.div>
 
