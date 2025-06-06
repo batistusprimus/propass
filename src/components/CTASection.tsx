@@ -27,13 +27,13 @@ export default function CTASection() {
           </h2>
           <div className="space-y-6 max-w-3xl mx-auto">
             <p className="text-body text-gray-700 leading-relaxed">
-              Si vous voyez cette page, c'est que quelques places sur les 8 disponibles pour rejoindre le Bootcamp sont encore ouvertes.
+              Si vous voyez cette page, c'est que quelques places sur les 10 disponibles pour rejoindre le Bootcamp sont encore ouvertes.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Le Bootcamp débute le 19 Mai.
+              Le Bootcamp débute le 15 juillet.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
-              Quoiqu'il arrive, je fermerai les inscriptions le 15 Mai à 20h.
+              Quoiqu'il arrive, je fermerai les inscriptions le 10 juillet à 20h.
             </p>
             <p className="text-body text-gray-700 leading-relaxed">
               Vu le nombre de demandes que je reçois chaque jour, je sais que les places vont partir avant.
